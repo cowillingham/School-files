@@ -1,0 +1,14 @@
+start // Our goal is to calcualte fees from bank accounts and provide the new account balance
+ AccountBalance = 0 
+ OverDrawnFee = 0.01 - 5
+ print "Enter account balance."
+  input AccountBalance
+ print "Enter how many times the account was overdrawn."
+  input OverDrawnAmount
+ TotalFee = AccountBalance * OverDrawnFee * OverDrawnAmount
+ NewAccountBalance = AccountBalance - TotalFee
+ print "Your total fee was TotalFee."
+ print "Your new balance is NewAccountBalance."
+ print "Thanks for using this program."
+stop
+ 

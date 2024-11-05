@@ -1,0 +1,15 @@
+start
+ print "Please enter the model of your refrigerator." // promts user to enter refrigerator model
+  input ModelName //input indicates model name
+ print "Enter interior height of refrigerator in inches." // promts user to enter refrigerator interior height in inches
+  input IntHeight // input indicates interior height of fridge in inches
+ print "Enter interior width of refrigerator in inches." // promts user to enter refrigerator interior width in inches
+  input IntWidth // input indicates interior width in inches
+ print "Enter interior depth of refrigerator in inches." // promts user to enter refrigerator interior depth in inches
+  input IntDepth // input indicates interior depth of fridge
+ CubicInches = IntHeight * IntWidth * IntDepth
+ CubicFeet = CubicInches / 1728
+ print "Your ModelName has CubicFeet cubic feet of space"
+stop
+  
+
